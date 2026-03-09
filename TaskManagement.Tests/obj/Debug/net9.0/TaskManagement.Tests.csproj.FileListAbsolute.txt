@@ -102,3 +102,10 @@ D:\G3Interactive\TaskManagement.Tests\obj\Debug\net9.0\refint\TaskManagement.Tes
 D:\G3Interactive\TaskManagement.Tests\obj\Debug\net9.0\TaskManagement.Tests.pdb
 D:\G3Interactive\TaskManagement.Tests\obj\Debug\net9.0\TaskManagement.Tests.genruntimeconfig.cache
 D:\G3Interactive\TaskManagement.Tests\obj\Debug\net9.0\ref\TaskManagement.Tests.dll
+D:\G3Interactive\TaskManagement.Tests\bin\Debug\net9.0\Castle.Core.dll
+D:\G3Interactive\TaskManagement.Tests\bin\Debug\net9.0\FluentValidation.dll
+D:\G3Interactive\TaskManagement.Tests\bin\Debug\net9.0\Moq.dll
+D:\G3Interactive\TaskManagement.Tests\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\G3Interactive\TaskManagement.Tests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\G3Interactive\TaskManagement.Tests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+D:\G3Interactive\TaskManagement.Tests\obj\Debug\net9.0\TaskManagement.Tests.sourcelink.json

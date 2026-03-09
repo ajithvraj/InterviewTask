@@ -9,3 +9,4 @@ D:\G3Interactive\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.dl
 D:\G3Interactive\TaskManagement.Domain\obj\Debug\net8.0\refint\TaskManagement.Domain.dll
 D:\G3Interactive\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.pdb
 D:\G3Interactive\TaskManagement.Domain\obj\Debug\net8.0\ref\TaskManagement.Domain.dll
+D:\G3Interactive\TaskManagement.Domain\obj\Debug\net8.0\TaskManagement.Domain.sourcelink.json

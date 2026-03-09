@@ -13,3 +13,4 @@ D:\G3Interactive\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.D
 D:\G3Interactive\TaskManagement.Infrastructure\bin\Debug\net8.0\TaskManagement.Domain.pdb
 D:\G3Interactive\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.csproj.AssemblyReference.cache
 D:\G3Interactive\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskMana.BCA0E1A6.Up2Date
+D:\G3Interactive\TaskManagement.Infrastructure\obj\Debug\net8.0\TaskManagement.Infrastructure.sourcelink.json
