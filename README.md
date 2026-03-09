@@ -13,6 +13,7 @@ Features implemented:
 * View tasks
 * Mark tasks as completed
 * Role-based authorization (Admin / User)
+* Request validation using FluentValidation
 * Standardized API responses
 * Unit testing using xUnit
 
@@ -66,6 +67,91 @@ All task APIs require the following headers:
 x-user-id
 x-user-role
 ```
+
+# Authentication and Authorization
+
+Authentication in this project is **simulated for demonstration purposes**.  
+Instead of JWT or session-based authentication, authorization is performed using **Swagger headers**.
+
+Reviewers should follow the steps below to access protected endpoints.
+
+---
+
+# Authorization Workflow (Swagger)
+
+### Step 1 – Login
+
+Use the login endpoint to verify credentials.
+
+Endpoint
+
+POST /api/auth/login
+
+Example credentials:
+
+Admin Login
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+User Login
+
+{
+  "username": "TestUser",
+  "password": "user123"
+}
+
+After a successful login, Swagger will return the user role.
+
+---
+
+### Step 2 – Click the **Authorize 🔐 button in Swagger**
+
+At the top of the Swagger UI page, click **Authorize**.
+
+Swagger is configured with two headers:
+
+UserHeader  
+RoleHeader
+
+---
+
+### Step 3 – Enter Authorization Values
+
+For **Admin access**
+
+UserHeader: 1  
+RoleHeader: Admin
+
+For **User access**
+
+UserHeader: 2  
+RoleHeader: User
+
+Swagger will automatically attach these headers to every API request.
+
+---
+
+### Step 4 – Test the APIs
+
+After authorization, you can test all endpoints.
+
+Permissions:
+
+User:
+- Create task
+- View own tasks
+- Update own tasks
+
+Admin:
+- Create task
+- View all tasks
+- Update tasks
+- Mark tasks as completed
+
+
 
 ---
 
@@ -247,7 +333,7 @@ Unit tests are implemented using **xUnit**.
 Run tests using:
 
 ```
-dotnet test
+dotnet test or from visual studio (force test)
 ```
 
 ---
